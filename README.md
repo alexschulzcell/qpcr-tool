@@ -1,5 +1,9 @@
 # qPCR Tool
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23395519.svg)](https://doi.org/10.5281/zenodo.23395519)
+
+**Open the app: https://alexschulzcell.github.io/qpcr-tool/**
+
 Browser app for relative quantification of qPCR data (ΔΔCt / 2^−ΔΔCt) from
 **Thermo Fisher QuantStudio** exports, with validated statistics and
 publication-ready figures.
@@ -58,8 +62,14 @@ Run the suite with `npm test` (R ≥ 4.0 with `jsonlite`, `multcomp`, `mvtnorm`,
 ## Citing
 
 If you use the tool in a publication, cite the version you used (shown in the app and
-in every export). See [CITATION.cff](CITATION.cff); a DOI can be obtained by archiving a
-GitHub release on Zenodo.
+in every export), e.g.:
+
+> Zentgraf A. qPCR Tool v0.1.0 (2026). https://github.com/alexschulzcell/qpcr-tool.
+> doi:10.5281/zenodo.23395520
+
+Each release has its own version DOI on Zenodo; the concept DOI
+[10.5281/zenodo.23395519](https://doi.org/10.5281/zenodo.23395519) always resolves to the
+latest version. See [CITATION.cff](CITATION.cff).
 
 Methods references: Livak & Schmittgen 2001 (2^−ΔΔCt); Pfaffl 2001 (efficiency
 correction); Vandesompele et al. 2002 (multiple reference genes); Bustin et al. 2009

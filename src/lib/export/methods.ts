@@ -143,6 +143,6 @@ export function generateMethods(files: ParsedFile[], s: Settings, res: AnalysisR
   return {
     text: parts.join(' '),
     references: [...refs].map((r) => REFERENCES[r]),
-    citation: `qPCR Tool v${version}. Available at: <repository URL / DOI>`,
+    citation: `Zentgraf A. qPCR Tool v${version}. https://github.com/alexschulzcell/qpcr-tool. doi:10.5281/zenodo.23395519 (concept DOI; the version-specific DOI is listed on that Zenodo page)`,
   };
 }

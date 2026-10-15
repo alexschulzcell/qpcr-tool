@@ -7,6 +7,15 @@ license: MIT
 authors:
   - family-names: Zentgraf
     given-names: Alex
-# After archiving a release on Zenodo, add:
-# doi: 10.5281/zenodo.XXXXXXX
-# repository-code: https://github.com/<user>/qpcr-tool
+# Concept DOI (always resolves to the latest version). Each release also has its
+# own version DOI on Zenodo; cite the version you used (v0.1.0: 10.5281/zenodo.23395520).
+doi: 10.5281/zenodo.23395519
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23395519
+    description: Concept DOI (all versions)
+  - type: doi
+    value: 10.5281/zenodo.23395520
+    description: Version 0.1.0
+repository-code: https://github.com/alexschulzcell/qpcr-tool
+url: https://alexschulzcell.github.io/qpcr-tool/

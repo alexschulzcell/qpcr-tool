@@ -114,6 +114,7 @@ export function ExportView({ files, design, settings, result, plotStyle, onLoadS
           ))}
         </ol>
         <h4>Citing this software</h4>
+        <p className="note">Prefer the version-specific DOI of the release you used (see the Zenodo page).</p>
         <p className="muted">{methods.citation}</p>
         <p className="note">
           Check the draft against what you actually did (e.g. instrument, chemistry, primer validation) and add MIQE-relevant details
