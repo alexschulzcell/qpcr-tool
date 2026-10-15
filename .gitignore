@@ -1,0 +1,10 @@
+node_modules
+dist
+*.local
+*.tsbuildinfo
+.claude/
+# Real (unpublished) lab data used for local validation only - never commit.
+validation/private
+*.xlsx
+*.xls
+!tests/fixtures/*.xlsx

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "qPCR Tool: relative quantification and statistics for QuantStudio qPCR exports"
+version: 0.1.0
+date-released: 2026-10-15
+license: MIT
+authors:
+  - family-names: Zentgraf
+    given-names: Alex
+# After archiving a release on Zenodo, add:
+# doi: 10.5281/zenodo.XXXXXXX
+# repository-code: https://github.com/<user>/qpcr-tool
